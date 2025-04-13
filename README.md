@@ -15,7 +15,7 @@ Lockbase is a secure Flask-based API for storing and retrieving user credentials
 
 ---
 
-## ✨ Features
+## Features
 
 - Register & authenticate users with hashed passwords (`bcrypt`)
 - Encrypt credentials using AES (CBC mode) and a secure base64 key
@@ -27,7 +27,7 @@ Lockbase is a secure Flask-based API for storing and retrieving user credentials
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 <details>
 <summary>Click to expand</summary>
@@ -55,7 +55,7 @@ lockbase/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 ```bash
@@ -86,7 +86,7 @@ python backend/main.py
 
 ---
 
-## 🔌 API Usage
+## API Usage
 
 ### ✅ Register a User
 ```bash
@@ -104,7 +104,7 @@ curl -X POST http://127.0.0.1:5000/credentials/create \
 
 ---
 
-## 📄 Environment Variables
+## Environment Variables
 
 To get started, copy the example environment file and configure your own secrets.
 
@@ -138,8 +138,8 @@ python backend/generate_key.py
 
 ---
 
-## 👤 Author
+## Author
 
 Developed by **Barry Ngon**  
 Full-stack Developer • Security Enthusiast  
-[GitHub](https://github.com/bingonx) • [LinkedIn](https://linkedin.com/in/barryngon/)
+[GitHub](https://github.com/b1ngon) • [LinkedIn](https://linkedin.com/in/barryngon/)
